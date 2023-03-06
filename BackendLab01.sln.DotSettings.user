@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=a06168fe_002Da979_002D4b79_002Dae9c_002Df4627426d9a0/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="CreatQuizTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.MemoryQuizServiceTest.AddUserAnswerTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.MemoryQuizServiceTest.CreateItemsTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.GenericRepositoryTest.CreateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.GenericRepositoryTest.DeleteTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.GenericRepositoryTest.UpdateTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.GenericRepositoryTest.FindBySpecification&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::103ACBBC-8892-456B-BD24-B296EFDF8F31::net7.0::UnitTest.MemoryQuizServiceTest.CreateQuizTest&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

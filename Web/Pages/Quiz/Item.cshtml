@@ -1,0 +1,22 @@
+@page "{quizId}/{itemId}"
+@model BackendLab01.Pages.QuizModel
+@{
+    ViewData["Title"] = "Quiz";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Quiz</h1>
+<h3>@Model.Question</h3>
+<form>
+    @if (Model.Answers is not null)
+    {
+        @foreach (var item in Model?.Answers)
+        {
+            <div class="form-check">
+                <input class="form-check-input" type="radio" value="@item" asp-for=@Model.UserAnswer/>
+                <label class="form-check-label" asp-for="@Model.UserAnswer">@item</label>
+            </div>
+        }
+    }
+    <button type="submit">Zapisz</button>
+</form>
