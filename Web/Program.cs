@@ -1,15 +1,19 @@
 using ApplicationCore.Interfaces.Repository;
 using BackendLab01;
+using Infrastructure.Memory;
 using Infrastructure.Memory.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
+var quizRepo = new MemoryGenericRepository<Quiz, int>();
+var itemRepo = new MemoryGenericRepository<QuizItem, int>();
+var answerRepo = new MemoryGenericRepository<QuizItemUserAnswer, string>();
 
-// Add services to the container.
 builder.Services.AddRazorPages();
-builder.Services.AddSingleton<IGenericRepository<Quiz, int>, MemoryGenericRepository<Quiz, int>>();
-builder.Services.AddSingleton<IGenericRepository<QuizItem, int>, MemoryGenericRepository<QuizItem, int>>();
-builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>, MemoryGenericRepository<QuizItemUserAnswer, string>>();
+builder.Services.AddSingleton<IGenericRepository<Quiz, int>>(provider => quizRepo);
+builder.Services.AddSingleton<IGenericRepository<QuizItem, int>>(provider => itemRepo);
+builder.Services.AddSingleton<IGenericRepository<QuizItemUserAnswer, string>>(provider => answerRepo);
 builder.Services.AddSingleton<IQuizUserService, QuizUserService>();
+builder.Services.AddSingleton<IQuizAdminService, QuizAdminService>();
 
 var app = builder.Build();
 
@@ -29,5 +33,5 @@ app.UseRouting();
 app.UseAuthorization();
 
 app.MapRazorPages();
-
+app.Seed();
 app.Run();

@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.CodeAnalysis.Elfie.Serialization;
 
 namespace BackendLab01.Pages
 {
@@ -8,9 +9,11 @@ namespace BackendLab01.Pages
     {
         private readonly IQuizUserService _userService;
 
-        public QuizModel(IQuizUserService userService)
+        private readonly ILogger _logger;
+        public QuizModel(IQuizUserService userService, ILogger<QuizModel> logger)
         {
             _userService = userService;
+            _logger = logger;
         }
         [BindProperty]
         public string Question { get; set; }
@@ -31,7 +34,7 @@ namespace BackendLab01.Pages
             QuizId = quizId;
             ItemId = itemId;
             var quiz = _userService.FindQuizById(quizId);
-            var quizItem = quiz?.Items[itemId];
+            var quizItem = quiz?.Items[itemId - 1];
             Question = quizItem?.Question;
             Answers = new List<string>();
             if (quizItem is not null)
@@ -41,9 +44,9 @@ namespace BackendLab01.Pages
             }
         }
 
-        public void OnPost()
+        public IActionResult OnPost()
         {
-            RedirectToPage("Summary", $"{QuizId}/{ItemId + 1}");
+            return RedirectToPage("Item", new {quizId = QuizId, itemId = ItemId + 1});
         }
     }
 }

@@ -7,14 +7,14 @@
 
 <h1>Quiz</h1>
 <h3>@Model.Question</h3>
-<form>
+<form method="post">
     @if (Model.Answers is not null)
     {
         @foreach (var item in Model?.Answers)
         {
             <div class="form-check">
                 <input class="form-check-input" type="radio" value="@item" asp-for=@Model.UserAnswer/>
-                <label class="form-check-label" asp-for="@Model.UserAnswer">@item</label>
+                <label class="form-check-label" for="@item">@item</label>
             </div>
         }
     }
