@@ -6,7 +6,7 @@
 }
 
 <h1>Quiz</h1>
-<h3>@Model.Question</h3>
+<h3>@Model?.Question</h3>
 <form method="post">
     @if (Model.Answers is not null)
     {
