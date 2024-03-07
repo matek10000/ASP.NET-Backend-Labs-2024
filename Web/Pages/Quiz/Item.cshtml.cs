@@ -46,7 +46,17 @@ namespace BackendLab01.Pages
 
         public IActionResult OnPost()
         {
-            return RedirectToPage("Item", new {quizId = QuizId, itemId = ItemId + 1});
+            var nextItemId = ItemId + 1;
+            var quiz = _userService.FindQuizById(QuizId);
+
+            if (nextItemId <= quiz.Items.Count)
+            {
+                return RedirectToPage("Item", new { quizId = QuizId, itemId = nextItemId });
+            }
+            else
+            {
+                return RedirectToPage("Summary", new { quizId = QuizId, correctAnswersCount = correctAnswersCount });
+            }
         }
     }
 }
