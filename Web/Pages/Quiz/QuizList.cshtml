@@ -1,8 +1,10 @@
 ﻿@page
 @model QuizListModel
 @{
+    <h1>Lista Quizów</h1>
+    <hr/>
     foreach (var x in Model.QuizLista)
     {
-        <p><a href="Item/@x.Id/1">@x.Title</a></p>
+        <h3>-->  <a href="Item/@x.Id/1">@x.Title</a></h3><hr/>
     }
 }

@@ -1,9 +1,11 @@
 ﻿@page "{quizId}/{userId}"
 @model BackendLab01.Pages.Summary
 @{
-    ViewData["Title"] = "Summary";
+    ViewData["Title"] = "Wynik";
     Layout = "~/Pages/Shared/_Layout.cshtml";
 }
 
-<h1>Summary</h1>
-<p>You have answered @Model.CorrectAnswersCount correct answers.</p>
+<h1>Wynik Quizu</h1>
+<hr />
+<p>Twoja liczba poprawnych odpowiedzi to: <b>@Model.CorrectAnswersCount</b>. Brawo! </p>
+<hr />
