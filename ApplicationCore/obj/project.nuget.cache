@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "pYHEXOCzvSlsMhAVz5jUmyyXfytql3RfAGFyqr6TgqCsAN7ihFN4BbWP5KyXNwMwrXKY4p/XpVTwmmrVjVp3lQ==",
+  "dgSpecHash": "smJGeJ8apE0VLKFOlxivdKI0JN2XwSrcKvCjA2XAlCBT1AydIKPwNUee6rsgCLui4QzCBZScq48lZlW4vmnu4A==",
   "success": true,
-  "projectFilePath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "piwqets/U3mgaM57n9x1o9fYjTnXXoB9TK4cJ44twhzWCmjwWD30/WwXrUD1mwBiQa8SHYsnxiM6wR5amKhAWw==",
+  "dgSpecHash": "Voqq5bK3+cRWxbdSHuy/P6A5a7p5/Mx3DuNS9CJdqwomkkZR0fMATq4g6sWp1DHYkeX2Vy+iysv8QzMmT4mJuA==",
   "success": true,
-  "projectFilePath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj",
+  "projectFilePath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\mateusz.dybas\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.codecoverage\\17.3.2\\microsoft.codecoverage.17.3.2.nupkg.sha512",

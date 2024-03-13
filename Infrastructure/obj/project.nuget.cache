@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CRhkRU2uJpoqcwChtUoDddWazdLTHZo+3vYm7yALZHQ1dyIV2wRWlk3MeVzw1gDPZOu5myeiGeCYyDatuBOUGw==",
+  "dgSpecHash": "w53dgDh5B7cd320wcE2qNJWO7Miu7wG6V0hNSut4Ac+NBwJUrCZiEROvwjOWZ73/vhB+YpP0RVQtIXAzNZMsnw==",
   "success": true,
-  "projectFilePath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
     "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
