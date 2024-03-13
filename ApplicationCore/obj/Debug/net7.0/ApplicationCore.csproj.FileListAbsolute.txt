@@ -10,3 +10,15 @@ C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\Applic
 C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
 C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
 C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.sourcelink.json
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+D:\Users\mateusz.dybas\Source\Repos\ASP.NET-Backend-Labs-2024\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

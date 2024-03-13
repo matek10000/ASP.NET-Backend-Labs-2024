@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{335152FC-C0DE-497A-A6E0-A75BC32E3FB1}|BlazorServerApp\\BlazorServerApp.csproj|d:\\users\\mateusz.dybas\\source\\repos\\asp.net-backend-labs-2024\\blazorserverapp\\blazorchatsamplehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{335152FC-C0DE-497A-A6E0-A75BC32E3FB1}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\blazorchatsamplehub.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335152FC-C0DE-497A-A6E0-A75BC32E3FB1}|BlazorServerApp\\BlazorServerApp.csproj|d:\\users\\mateusz.dybas\\source\\repos\\asp.net-backend-labs-2024\\blazorserverapp\\pages\\chatroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{335152FC-C0DE-497A-A6E0-A75BC32E3FB1}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\pages\\chatroom.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{335152FC-C0DE-497A-A6E0-A75BC32E3FB1}|BlazorServerApp\\BlazorServerApp.csproj|d:\\users\\mateusz.dybas\\source\\repos\\asp.net-backend-labs-2024\\blazorserverapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{335152FC-C0DE-497A-A6E0-A75BC32E3FB1}|BlazorServerApp\\BlazorServerApp.csproj|solutionrelative:blazorserverapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ChatRoom.razor",
+              "DocumentMoniker": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\Pages\\ChatRoom.razor",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Pages\\ChatRoom.razor",
+              "ToolTip": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\Pages\\ChatRoom.razor",
+              "RelativeToolTip": "BlazorServerApp\\Pages\\ChatRoom.razor",
+              "ViewState": "AQIAAHkAAAAAAAAAAAAgwKcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-13T12:52:22.999Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BlazorChatSampleHub.cs",
+              "DocumentMoniker": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\BlazorChatSampleHub.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\BlazorChatSampleHub.cs",
+              "ToolTip": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\BlazorChatSampleHub.cs",
+              "RelativeToolTip": "BlazorServerApp\\BlazorChatSampleHub.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAqwBsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T12:47:37.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\Program.cs",
+              "RelativeDocumentMoniker": "BlazorServerApp\\Program.cs",
+              "ToolTip": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\Program.cs",
+              "RelativeToolTip": "BlazorServerApp\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-13T12:45:58.742Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

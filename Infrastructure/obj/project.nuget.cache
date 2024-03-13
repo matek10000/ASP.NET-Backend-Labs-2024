@@ -1,20 +1,20 @@
 {
   "version": 2,
-  "dgSpecHash": "EXsdByZ9ZPVAzhdX2G3Nzw6WSfxSrQZYjcpZxY2jdT6tqizq8VoVuz/D8FkDj57EWx6xpD0yWTddeSpxq4xDSQ==",
+  "dgSpecHash": "CRhkRU2uJpoqcwChtUoDddWazdLTHZo+3vYm7yALZHQ1dyIV2wRWlk3MeVzw1gDPZOu5myeiGeCYyDatuBOUGw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\matek\\source\\repos\\Quiz_ASP.NET\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
-    "C:\\Users\\matek\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.3\\microsoft.entityframeworkcore.7.0.3.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.3\\microsoft.entityframeworkcore.abstractions.7.0.3.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.3\\microsoft.entityframeworkcore.analyzers.7.0.3.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\7.0.0\\microsoft.extensions.caching.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.caching.memory\\7.0.0\\microsoft.extensions.caching.memory.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\microsoft.extensions.logging.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
+    "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }
