@@ -28,7 +28,8 @@ public class QuizUserService: IQuizUserService
 
     public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
     {
-        QuizItem? item = itemRepository.FindById(quizItemId);
+        var quiz = quizRepository.FindById(quizId);
+        var item = quiz.Items.FirstOrDefault(x => x.Id == quizItemId);
         var userAnswer = new QuizItemUserAnswer(quizItem: item, userId: userId, answer: answer, quizId: quizId);
         answerRepository.Add(userAnswer);
     }
@@ -41,5 +42,16 @@ public class QuizUserService: IQuizUserService
         //     .Where(x => x. UserId == userId)
         //     .ToList();
         return answerRepository.FindBySpecification(new QuizItemsForQuizIdFilledByUser(quizId, userId)).ToList();
+    }
+
+    public int CountCorrectAnswersForQuizFilledByUser(int quizId, int userId)
+    {
+        return GetUserAnswersForQuiz(quizId, userId)
+            .Count(e => e.IsCorrect());
+    }
+
+    public List<Quiz> GetAllQuiz()
+    {
+        return quizRepository.FindAll();
     }
 }

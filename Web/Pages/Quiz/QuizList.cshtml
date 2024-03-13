@@ -1,0 +1,8 @@
+﻿@page
+@model QuizListModel
+@{
+    foreach (var x in Model.QuizLista)
+    {
+        <p><a href="Item/@x.Id/1">@x.Title</a></p>
+    }
+}

@@ -17,4 +17,6 @@ public interface IQuizUserService
         return GetUserAnswersForQuiz(quizId, userId)
             .Count(e => e.IsCorrect());
     }
+
+    List<Quiz> GetAllQuiz();
 }

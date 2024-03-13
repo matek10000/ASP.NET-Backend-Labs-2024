@@ -1,0 +1,12 @@
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\bin\Debug\net7.0\ApplicationCore.deps.json
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\bin\Debug\net7.0\ApplicationCore.dll
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\bin\Debug\net7.0\ApplicationCore.pdb
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.AssemblyReference.cache
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfoInputs.cache
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.AssemblyInfo.cs
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.dll
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\refint\ApplicationCore.dll
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ApplicationCore.pdb
+C:\Users\matek\Source\Repos\Quiz_ASP.NET\ApplicationCore\obj\Debug\net7.0\ref\ApplicationCore.dll

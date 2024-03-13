@@ -46,17 +46,13 @@ namespace BackendLab01.Pages
 
         public IActionResult OnPost()
         {
-            var nextItemId = ItemId + 1;
             var quiz = _userService.FindQuizById(QuizId);
-
-            if (nextItemId <= quiz.Items.Count)
+            _userService.SaveUserAnswerForQuiz(QuizId, 1, ItemId, UserAnswer);
+            if (quiz == null || ItemId >= quiz.Items.Count)
             {
-                return RedirectToPage("Item", new { quizId = QuizId, itemId = nextItemId });
+                return RedirectToPage("Summary", new { quizId = QuizId, userId = 1 });
             }
-            else
-            {
-                return RedirectToPage("Summary", new { quizId = QuizId, correctAnswersCount = correctAnswersCount });
-            }
+            return RedirectToPage("Item", new { quizId = QuizId, itemId = ItemId + 1 });
         }
     }
 }

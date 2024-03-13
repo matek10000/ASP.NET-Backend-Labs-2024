@@ -43,19 +43,19 @@ public static class SeedData
                     items: new List<QuizItem>
                     {
                         new QuizItem(
-                            id: 4,
+                            id: 1,
                             question: "Z jakim morzem sąsiaduje Polska?",
                             incorrectAnswers: new List<string> {"Może", "Morze Spokojne", "Morze Bałkańskie"},
                             correctAnswer: "Morze Bałtyckie"
                         ),
                         new QuizItem(
-                            id: 5,
+                            id: 2,
                             question: "Z kim nie graniczy Polska?",
                             incorrectAnswers: new List<string> {"Słowacja", "Węgry", "Niemcy"},
                             correctAnswer: "Włochy"
                         ),
                         new QuizItem(
-                            id: 6,
+                            id: 3,
                             question: "Najlepsze piwko?",
                             incorrectAnswers: new List<string> {"Tyskie", "Piwo Tesco", "Harnaś"},
                             correctAnswer: "Żuberek"
@@ -64,7 +64,6 @@ public static class SeedData
                     title: "Quiz 2"
                 );
 
-                // Dodajemy obiekty do repozytoriów
                 quizRepo.Add(quiz1);
                 quizRepo.Add(quiz2);
             }
