@@ -648,11 +648,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\BlazorServerApp.csproj",
+      "projectUniqueName": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\BlazorServerApp.csproj",
       "projectName": "BlazorServerApp",
-      "projectPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\BlazorServerApp.csproj",
+      "projectPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\BlazorServerApp.csproj",
       "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
-      "outputPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\obj\\",
+      "outputPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",

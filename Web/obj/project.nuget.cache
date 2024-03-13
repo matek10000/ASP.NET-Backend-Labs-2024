@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ter+kNIxq1OZG80F1RK6ATJHta9FgS9KOQrXRO5QybXjUwLts9rEiiVuFT4DnILaKzvmXcmXyxOO9kDvnhsmXA==",
+  "dgSpecHash": "J7imIKY37wHjFhW6htr26av8P8b/Cjpppk8vMUvR+4QUPIx8vl7LRIFtHJjRQVdlUqjfCNm/KtA73XJ/PTRqPQ==",
   "success": true,
-  "projectFilePath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\Web.csproj",
+  "projectFilePath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Web\\Web.csproj",
   "expectedPackageFiles": [
     "D:\\Users\\mateusz.dybas\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "D:\\Users\\mateusz.dybas\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\6.0.11\\microsoft.aspnetcore.razor.language.6.0.11.nupkg.sha512",

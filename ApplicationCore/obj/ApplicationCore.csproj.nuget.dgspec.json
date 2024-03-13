@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {}
+    "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
         "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
+        "outputPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",

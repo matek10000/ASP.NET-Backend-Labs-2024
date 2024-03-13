@@ -5,13 +5,13 @@
 <h3>ChatRoom</h3>
 
 
-<h1>Blazor SignalR Chat Sample</h1>
+<h1>Blazor SignalR Chat</h1>
 <hr />
 
 @if (!_isChatting)
 {
     <p>
-        Enter your name to start chatting:
+        Podaj nazwę, aby rozpocząć:
     </p>
 
     <input type="text" maxlength="32" @bind="@_username" />
@@ -50,7 +50,7 @@ else
         }
         <hr />
         <textarea class="input-lg" placeholder="Wpisz swoją wiadomość!" @bind="@_newMessage"></textarea>
-        <button class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Send</button>
+        <button class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Wyślij</button>
     </div>
 }
 
