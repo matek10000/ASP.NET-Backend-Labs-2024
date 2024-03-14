@@ -1,11 +1,12 @@
 ﻿@page "/chatroom"
 @inject NavigationManager navigationManager
+@inject UserService userService
 @using Microsoft.AspNetCore.SignalR.Client;
 
-<h3>ChatRoom</h3>
+<h3>Chat</h3>
 
 
-<h1>Blazor SignalR Chat</h1>
+<h1>Chat - Blazor SignalR</h1>
 <hr />
 
 @if (!_isChatting)
@@ -50,7 +51,18 @@ else
         }
         <hr />
         <textarea class="input-lg" placeholder="Wpisz swoją wiadomość!" @bind="@_newMessage"></textarea>
+
         <button class="btn btn-default" @onclick="@(() => SendAsync(_newMessage))">Wyślij</button>
+            <select class="form-select" @bind="@_to">
+                <option value="All">Wszyscy</option>
+                    @foreach (var user in userService.GetAll())
+                    {
+                        if (user.Username != _username)
+                        {
+                            <option value="@user.Username">@user.Username</option>
+                        }
+                    }
+            </select>
     </div>
 }
 
@@ -58,21 +70,18 @@ else
 @code {
     // flag to indicate chat status
     private bool _isChatting = false;
-
     // name of the user who will be chatting
     private string _username;
-
     // on-screen message
     private string _message;
-
     // new message input
     private string _newMessage;
-
     // list of messages in chat
     private List<Message> _messages = new List<Message>();
-
     private string _hubUrl;
     private HubConnection _hubConnection;
+    private string _to = "All";
+    private List<(string ConnectionId, string Username)> _users = new List<(string ConnectionId, string Username)>();
 
     public async Task Chat()
     {
@@ -102,8 +111,11 @@ else
                 .Build();
 
             _hubConnection.On<string, string>("Broadcast", BroadcastMessage);
+            _hubConnection.On<string, string>("Private", PrivateMessage);
 
             await _hubConnection.StartAsync();
+
+            userService.Add(_hubConnection.ConnectionId, _username);
 
             await SendAsync($"[Notice] {_username} dołączył do czatu.");
         }
@@ -114,6 +126,7 @@ else
         }
     }
 
+
     private void BroadcastMessage(string name, string message)
     {
         bool isMine = name.Equals(_username, StringComparison.OrdinalIgnoreCase);
@@ -123,6 +136,14 @@ else
         // Inform blazor the UI needs updating
         InvokeAsync(StateHasChanged);
     }
+
+
+    private void PrivateMessage(string name, string message)
+    {
+        _messages.Add(new Message(name, $"[Private]: {message}", false));
+        InvokeAsync(StateHasChanged);
+    }
+
 
     private async Task DisconnectAsync()
     {
@@ -135,18 +156,45 @@ else
 
             _hubConnection = null;
             _isChatting = false;
+            userService.RemoveByName(_username);
         }
     }
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        try
+        {
+            _users = userService.GetAll().ToList();
+            StateHasChanged();
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error getting users: {ex.Message}");
+        }
+
+        await base.OnInitializedAsync();
+    }
+
 
     private async Task SendAsync(string message)
     {
         if (_isChatting && !string.IsNullOrWhiteSpace(message))
         {
-            await _hubConnection.SendAsync("Broadcast", _username, message);
+            if (_to == "All")
+            {
+                await _hubConnection.SendAsync("Broadcast", _username, message);
+            }
+            else
+            {
+                string connectionId = userService.GetConnectionIdByName(_to);
+                await _hubConnection.SendAsync("Private", _username, connectionId, message);
+            }
 
             _newMessage = string.Empty;
         }
     }
+
 
     private class Message
     {

@@ -1,59 +1,59 @@
 {
   "Files": [
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BlazorServerApp.bundle.scp.css",
       "PackagePath": "staticwebassets\\BlazorServerApp.bundle.scp.css"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\README.md",
       "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
       "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\BlazorServerApp\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {

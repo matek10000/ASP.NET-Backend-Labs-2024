@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj": {}
+    "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj": {}
   },
   "projects": {
-    "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+    "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mateusz.dybas\\Source\\Repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
+        "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "C:\\Users\\matek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matek\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -60,21 +55,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj": {
+    "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
         "projectName": "Infrastructure",
-        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
-        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\matek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matek\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -88,8 +83,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
               }
             }
           }
@@ -98,11 +93,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -130,21 +120,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj": {
+    "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj",
+        "projectUniqueName": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj",
         "projectName": "UnitTest",
-        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj",
-        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\UnitTest\\obj\\",
+        "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\UnitTest.csproj",
+        "packagesPath": "C:\\Users\\matek\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\matek\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\UnitTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\matek\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -158,11 +148,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
-                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
+              "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
               },
-              "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj": {
-                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\2ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj"
+              "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj"
               }
             }
           }
@@ -171,11 +161,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -219,7 +204,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

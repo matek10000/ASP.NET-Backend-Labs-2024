@@ -9,51 +9,49 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BackendLab01
 build_property.RootNamespace = BackendLab01
-build_property.ProjectDir = D:\Users\mateusz.dybas\source\repos\2ASP.NET-Backend-Labs-2024\Web\
-build_property.EnableComHosting = 
-build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.ProjectDir = C:\Users\matek\source\repos\ASP.NET-Backend-Labs-2024\Web\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = D:\Users\mateusz.dybas\source\repos\2ASP.NET-Backend-Labs-2024\Web
+build_property.MSBuildProjectDirectory = C:\Users\matek\source\repos\ASP.NET-Backend-Labs-2024\Web
 build_property._RazorSourceGeneratorDebug = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Error.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Index.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Privacy.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Quiz/Item.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Quiz/Item.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpelxJdGVtLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Quiz/QuizList.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Quiz/QuizList.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpelxRdWl6TGlzdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Quiz/Summary.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Quiz/Summary.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUXVpelxTdW1tYXJ5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/_ViewImports.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/_ViewStart.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[D:/Users/mateusz.dybas/source/repos/2ASP.NET-Backend-Labs-2024/Web/Pages/Shared/_Layout.cshtml]
+[C:/Users/matek/source/repos/ASP.NET-Backend-Labs-2024/Web/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-esyc55q667
