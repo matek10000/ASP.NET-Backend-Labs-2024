@@ -1,0 +1,290 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\WebApi\\WebApi.csproj": {}
+  },
+  "projects": {
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "projectName": "ApplicationCore",
+        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
+        "projectName": "Infrastructure",
+        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj",
+        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\WebApi\\WebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\WebApi\\WebApi.csproj",
+        "projectName": "WebApi",
+        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\WebApi\\WebApi.csproj",
+        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\WebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
+              },
+              "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\Web.csproj": {
+                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\Web.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\Web.csproj",
+        "projectName": "Web",
+        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\Web.csproj",
+        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj"
+              },
+              "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj": {
+                "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\Infrastructure\\Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {}
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {}
   },
   "projects": {
-    "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
+    "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "projectUniqueName": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
         "projectName": "ApplicationCore",
-        "projectPath": "C:\\Users\\matek\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
-        "packagesPath": "C:\\Users\\matek\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\matek\\Source\\Repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
+        "projectPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\ApplicationCore.csproj",
+        "packagesPath": "D:\\Users\\mateusz.dybas\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\mateusz.dybas\\source\\repos\\ASP.NET-Backend-Labs-2024\\ApplicationCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\matek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\mateusz.dybas\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -34,6 +34,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -55,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
         }
       }
     }

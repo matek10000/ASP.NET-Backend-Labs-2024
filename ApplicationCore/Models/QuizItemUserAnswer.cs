@@ -2,7 +2,7 @@
 
 namespace BackendLab01;
 
-public class QuizItemUserAnswer: IIdentity<string>
+public class QuizItemUserAnswer : IIdentity<string>
 {
     public int QuizId { get; }
     public QuizItem  QuizItem{ get; }
@@ -23,10 +23,6 @@ public class QuizItemUserAnswer: IIdentity<string>
 
     public string Id
     {
-        get => $"{QuizId}{UserId}{QuizItem.Id}";
-        set
-        {
-            
-        }
+        get => $"{QuizId} {UserId} {QuizItem.Id}";
     }
 }

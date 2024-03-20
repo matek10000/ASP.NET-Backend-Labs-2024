@@ -1,4 +1,5 @@
-﻿using ApplicationCore.Interfaces.Criteria;
+﻿using ApplicationCore.Exceptions;
+using ApplicationCore.Interfaces.Criteria;
 using ApplicationCore.Interfaces.Repository;
 
 namespace BackendLab01;
@@ -26,12 +27,28 @@ public class QuizUserService: IQuizUserService
         return quizRepository.FindById(id);
     }
 
+
+    // Kod inny (?)
     public void SaveUserAnswerForQuiz(int quizId, int userId, int quizItemId, string answer)
     {
-        var quiz = quizRepository.FindById(quizId);
-        var item = quiz.Items.FirstOrDefault(x => x.Id == quizItemId);
-        var userAnswer = new QuizItemUserAnswer(quizItem: item, userId: userId, answer: answer, quizId: quizId);
-        answerRepository.Add(userAnswer);
+        QuizItem? item = itemRepository.FindById(quizItemId);
+        var userAnswer = new QuizItemUserAnswer(item, userId, quizId, answer);
+        var find = answerRepository.FindById(userAnswer.Id);
+        if (find == null)
+        {
+            answerRepository.Add(userAnswer);
+        }
+        else
+        {
+            throw new DuplicateAnswerException($"User {userId} already answered for question {quizItemId}");
+        }
+
+
+
+        //var quiz = quizRepository.FindById(quizId);
+        //var item = quiz.Items.FirstOrDefault(x => x.Id == quizItemId);
+        //var userAnswer = new QuizItemUserAnswer(quizItem: item, userId: userId, answer: answer, quizId: quizId);
+        //answerRepository.Add(userAnswer);
     }
 
 
